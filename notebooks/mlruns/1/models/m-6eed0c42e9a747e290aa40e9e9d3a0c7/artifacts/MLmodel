@@ -1,0 +1,22 @@
+artifact_path: file:c:/Users/MSI/Desktop/Telco-Customer-Churn/notebooks/mlruns/1/models/m-6eed0c42e9a747e290aa40e9e9d3a0c7/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.13.1
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.1.2
+mlflow_version: 3.6.0
+model_id: m-6eed0c42e9a747e290aa40e9e9d3a0c7
+model_size_bytes: 660843
+model_uuid: m-6eed0c42e9a747e290aa40e9e9d3a0c7
+prompts: null
+run_id: 72c44eefc3664faca38577b1a1a3212c
+utc_time_created: '2025-12-03 22:23:54.719598'
